@@ -74,7 +74,7 @@
         <option value=-1 selected >Wählen</option>
         <?php
         foreach($to as $city1 => $value):
-            echo '<option value="'.$value.'">'.$value.'</option>'; //close your tags!!
+            echo '<option value="'.$value.'">'.$value.'</option>'; 
         endforeach;
         ?>
 
